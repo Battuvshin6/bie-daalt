@@ -1,0 +1,87 @@
+/* Navigation*/
+#navbarNav{
+    justify-content: end;
+}
+#navbarNav a:hover{
+color: orange;
+}
+.logo a{
+    font-size: 24px;
+    color: #063255;
+}
+.nav-item{
+    padding:10px;
+}
+.nav-button{
+    margin-left: 20px;
+    padding: auto 10px;
+    background-color: rgba(245, 138, 7, 0.349);
+    border-radius: 17px;
+    color: orange;
+    align-items: center;
+}
+/*.navbar-light .navbar-brand
+    color: #063255;
+}*/
+
+/* Main section*/
+
+.main-section{
+    background-color: #DCEAF5;
+    font-family: 'Poppins', sans-serif;
+     color: #5b5b5b;
+}
+.main-section h1{
+    font-size: 64px;
+    font-weight: bold;
+    font-weight: 600;
+    color: #063255;
+}
+.main-section-buttons a{
+    text-decoration: none;
+    padding: 13px 35px;
+}
+.main-section-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.main-section-button-1{
+    border-style: solid;
+    background-color: #f58a07;
+    border-radius: 25px;
+    border:none;
+    border-width: 10px;
+    color: white;
+}
+.main-section-button-2{
+    padding-right: 12rem;
+    color: #5b5b5b;
+    font-size: 20px;
+}
+.main-section-paragraph2{
+    padding-top: 7rem;
+    font-size: 18px;
+    color: #5b5b5b;
+}
+/* Second Section*/
+.second-section{
+    margin: 0 5%
+}
+.second-section p{
+    color:#5b5b5b
+}
+.second-section-h2 h2{
+    padding-top: 5rem;
+    color: #063255;
+    font-size: 50px;
+}
+.second-section img{
+    border-radius: 30px;
+    max-height: 16rem;
+    width: 100%;
+}
+.col img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
