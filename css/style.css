@@ -5,7 +5,7 @@ body{
     font-family: Poppins, sans-serif
 }
 .margin-div{
-    margin: 0 5%;
+    margin: 0 30px;
 }
 /* NAVIGATION*/
 #navbarNav{
@@ -14,10 +14,12 @@ body{
 #navbarNav a:hover{
 color: orange;
 }
-.logo a{
+.navbar-light .navbar-brand{
     font-size: 24px;
     color: #063255;
+    font-weight: 700;
 }
+    
 .nav-item{
     padding:10px;
 }
@@ -31,7 +33,6 @@ color: orange;
     justify-content: center;
 }
 /* MAIN SECTION*/
-
 .main-section{
     background-color: #DCEAF5;
     font-family: 'Poppins', sans-serif;
@@ -69,6 +70,7 @@ color: orange;
 }
 .main-section-image-container{
     max-height: 100%;
+    display: inline-block;
 }
 /*  SECOND SECTION*/
 .second-section{
@@ -306,11 +308,87 @@ max-height: 100%;
 /*LAST SECTION*/
 .last-section{
     background-color: #DCEAF5;
-    padding:10rem 0;
+    padding: 8rem 0;
 }
 .blog-header{
     padding-bottom: 5rem;
 }
 .blog-header h2{
     font-size: 2rem;
+}
+.card{
+    border-radius: 20px;
+}
+.card img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card a{
+    text-decoration: none;
+    color: #f58a07;
+}
+/* FOOTER*/
+.footer{
+    background-color: #063255;
+    color: white;
+    padding-top: 4rem;
+}
+.footer-logo{
+    padding-bottom: 2rem;
+}
+.about-company{
+   padding:0 3rem 2rem 0;
+}
+.footer-contract{
+    padding: 0 3rem 2rem 0;
+}
+.footer p{
+    color: white;
+}
+.list-none2{
+    list-style-type: none;
+}
+.list-none3{
+    list-style-type: none;
+}
+.list-none3 a{
+    text-decoration: none;
+    color: white;
+}
+.list-none4{
+    list-style: none;
+}
+.footer-part1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-part2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.email-part{
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 10rem 0 0;
+    border-right-width: 10rem;
+    border:none
+}
+.subscribe-button{
+    color: white;
+    background-color: #f58a07;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 18px;
+    margin-top: 1rem;
+}
+.term{
+    padding-top: 5rem;
+}
+.copyright{
+    padding-top: 5rem;
 }
